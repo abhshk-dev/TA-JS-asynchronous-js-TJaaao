@@ -58,6 +58,7 @@ table {
 body{
     font-size: 16px;
     line-height: 1.5;
+    padding-bottom: 8rem;
 }
 
 .flex{
@@ -88,7 +89,7 @@ img{
     width: 10rem;
     height: 10rem;
     object-fit: cover;
-    margin: 2.2rem 0;
+    margin: 1.5rem 0;
 }
 
 input{
@@ -97,6 +98,16 @@ input{
     margin-bottom: 1rem;
 }
 h1{
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     font-size: 1.8rem;
+}
+span{
+    margin: 0.2rem 0;
+}
+
+.cats h1{
+    text-align: center;
+}
+.cats img{
+    text-align: center;
 }
