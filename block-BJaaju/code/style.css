@@ -85,4 +85,11 @@ h1{
 input{
     padding: 0.5rem 0.25rem;
     border-radius: 0.2rem;
+    margin-bottom: 2rem;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    
 }
