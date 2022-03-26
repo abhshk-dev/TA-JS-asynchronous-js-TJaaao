@@ -2,6 +2,11 @@
 
 ```js
 // Your code
+function promiseResolved(){
+    return new Promise((res,rej)=>{
+        let resolve= setTimeout(res('Promise Resolved!'),1000ms)
+    })
+}
 ```
 
 2. Create another promise. Now have it reject with a value of `Rejected Promise!` without using `setTimeout`. Print the contents of the promise after it has been rejected by passing console.log to `.catch`
