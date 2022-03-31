@@ -1,6 +1,6 @@
 
 const url=`https://api.unsplash.com/photos/?client_id=fqghSz53AIu7Bo8BCQQ3EmlJjebYF6ugzyyUD_oomIY`;
-const getSearchUrl=(query)=>`https://api.unsplash.com/search/photos?query=${query}&?client_id=fqghSz53AIu7Bo8BCQQ3EmlJjebYF6ugzyyUD_oomIY`;
+const getSearchUrl=(query)=>`https://api.unsplash.com/search/photos?query=${query}&client_id=fqghSz53AIu7Bo8BCQQ3EmlJjebYF6ugzyyUD_oomIY`;
 //https://api.unsplash.com/search/photos?page=1&query=office
 const root=document.querySelector('.images');
 
