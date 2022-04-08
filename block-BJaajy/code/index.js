@@ -43,7 +43,7 @@ const three = new Promise((resolve, reject) =>
 //Promise.allSettled([one,two,three]).then(console.log);
 Promise.all([one,two,three]).then(console.log);
 
- */
+ 
 
 Promise.all([
   new Promise((resolve, reject) => {
@@ -52,3 +52,5 @@ Promise.all([
   'Sam',
   { name: 'John' },
 ]).then(console.log);
+
+*/
