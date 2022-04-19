@@ -59,6 +59,9 @@ table {
     margin: 0 auto;
     background-color: rgba(107, 107, 179, 0.692);
 }
+.flex{
+    display: flex;
+}
 
 section{
     margin-top: 100px;
@@ -91,7 +94,13 @@ li{
     padding: 10px 0;
 
 }
+li input{
+    margin: 0 10px ;
+}
+li > p{
+    margin: 0 16px;
 
+}
 li label{
     display: inline-block;
     font-size: 16px;
